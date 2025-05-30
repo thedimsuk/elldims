@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+  <title>ELLDIMS</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="nav-container">
+    <div class="nav-content">
+      <a href="#home" class="logo">ELLDIMS</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">
+            Halo, saya Dimas<br>
+            <span>Full-Stack Developer</span>
+          </h1>
+          <p class="fade-in">
+            Spesialis dalam menciptakan pengalaman digital yang indah, fungsional, dan berpusat pada pengguna.
+          </p>
+          <div class="cta-buttons fade-in">
+            <a href="#work" class="btn primary">Lihat Proyek</a>
+            <a href="#contact" class="btn secondary">Hubungi Saya</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-background"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="aset /foto/sukma.jpg" alt="Sukma" class="profile-pic">
+          </div>
+          <div class="about-text">
+            <p class="fade-in">
+              Seorang Full-Stack Developer yang antusias dengan ketertarikan pada desain dan berkomitmen menciptakan
+              pengalaman pengguna yang mulus. Berpengalaman dalam teknologi web modern dan memiliki pola pikir pemecahan
+              masalah, saya mewujudkan ide menjadi kode yang bersih dan efisien.
+            </p>
+            <div class="stats fade-in">
+              <div class="stat-item">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Tahun Pengalaman</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Proyek Selesai</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Keahlian</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <span class="skill-icon">⚡</span>
+            <span class="skill-name">HTML5</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🎨</span>
+            <span class="skill-name">CSS3</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">💻</span>
+            <span class="skill-name">JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">⚛️</span>
+            <span class="skill-name">React</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🎯</span>
+            <span class="skill-name">UI/UX</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🔮</span>
+            <span class="skill-name">Figma</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🔌</span>
+            <span class="skill-name">Arduino IDE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2>Proyek Unggulan</h2>
+        <div class="work-grid">
+          <div class="work-item">
+            <div class="work-image">
+              <img src="https://images.unsplash.com/photo-1541462608143-67571c6738dd?auto=format&fit=crop&w=800&q=80"
+                alt="Proyek E-Commerce">
+            </div>
+            <div class="work-content">
+              <h3>Platform E-Commerce</h3>
+              <p>Platform e-commerce modern yang dibangun dengan React dan Node.js.</p>
+              <div class="work-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <div class="work-image">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=800&q=80"
+                alt="Proyek Dashboard">
+            </div>
+            <div class="work-content">
+              <h3>Dashboard Analitik</h3>
+              <p>Dashboard analitik real-time dengan grafik interaktif.</p>
+              <div class="work-tags">
+                <span>Vue.js</span>
+                <span>D3.js</span>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <div class="work-image">
+              <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=800&q=80"
+                alt="Aplikasi Mobile">
+            </div>
+            <div class="work-content">
+              <h3>Aplikasi Mobile Fitness</h3>
+              <p>Aplikasi mobile lintas platform untuk pelacakan kebugaran.</p>
+              <div class="work-tags">
+                <span>React Native</span>
+                <span>Redux</span>
+                <span>Express</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-item">
+            <div class="work-image">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                alt="Proyek IoT Development">
+            </div>
+            <div class="work-content">
+              <h3>IoT Development</h3>
+              <p>Pengembangan perangkat Internet of Things untuk monitoring dan otomasi berbasis sensor dan
+                mikrokontroler.</p>
+              <div class="work-tags">
+                <span>IoT</span>
+                <span>Arduino</span>
+                <span>ESP32</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Kontak</h2>
+        <p>Silakan hubungi saya melalui.</p>
+        <div class="social-links">
+          <a href="mailto:dimassatrionurindho26@gmail.com">
+            <span class="contact-icon">📧</span>
+            <span>Email</span>
+          </a>
+          <a href="#">
+            <span class="contact-icon">🐱</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2020 ELLDIMS. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
